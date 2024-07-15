@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "performance"
+version = "0.1.0"
+description = ""
+authors = ["Sharizan Mohd Redzuan <SRedzuan@slb.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+pillow = "^10.3.0"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
